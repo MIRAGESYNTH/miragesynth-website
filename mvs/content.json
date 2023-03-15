@@ -1,0 +1,24 @@
+{
+    "games": {
+        "000": {
+            "identifier": "default",
+            "default": true,
+            "background": "./assets/main-view.jpg",
+            "title": "MIRAGESYNTH",
+            "description": "Welcome to my page, hope you enjoy my work",
+            "video": "https://www.youtube.com/embed/none",
+            "options": { "page": true, "store": true, "android": true },
+            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "android": "https://play.google.com"}
+        },
+        "001": {
+            "identifier": "cleanbot",
+            "default": false,
+            "background": "./assets/main-view.jpg",
+            "title": "cleanbot",
+            "description": "Enjoy a heart warming tale of a little cleanbot exploring the world",
+            "video": "https://www.youtube.com/embed/none",
+            "options": { "page": true, "store": true, "android": false },
+            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "android": "#"}
+        }
+    }
+}

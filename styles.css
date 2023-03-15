@@ -1,0 +1,168 @@
+:root {
+  --palette-0: #252422;
+  --palette-1: #247BA0;
+  --palette-2: #627CE4;
+  --palette-3: #89FBDC;
+  --palette-4: #FC37AC;
+  --palette-4: #FFFFFF;
+}
+
+* {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Webkit */
+}
+
+.input-container {
+  position: relative;
+}
+  
+.invalid-text {
+  position: absolute;
+  top: -1.5em;
+  left: 30px;
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+body {
+  
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--palette-0);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Header start */
+header {
+  width: 100%;
+  padding: 10px;
+}
+nav {
+  
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+  height: 30px; /* adjust as needed */
+  padding: 0;
+  margin: 0 30px;
+  margin-right: auto; /* align the logo to the left */
+}
+
+nav ul {
+  height: 30px; /* adjust as needed */
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 30px;
+}
+
+nav li:not(:nth-last-child(-n+3)) {
+  margin: 0 15px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+}
+
+nav li:nth-last-child(-n+3) {
+  margin: 0 10px;
+  position: relative;
+}
+
+nav li:not(:nth-last-child(-n+4))::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 35%;
+  transform: translate(-50%, -50%) rotate(-150deg);  
+  width: 0px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav a {
+  font-family: 'Sofia Sans', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.soft-icon {
+  width: 20px;
+}
+
+/* Header end */
+.secondary-view {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.panel img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  opacity: 0;
+}
+
+
+
+
+
+/* Twitter */
+
+.twitter-container {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  width: 20%;
+  height: 95%;
+  z-index: 2;
+}
+
+.twitter-timeline {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: fit-content;
+  height: 97%;
+  overflow: scroll;
+  z-index: 3;
+}
+
+
+
+
+/* Footer start */
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  background-color: var(--palette-1);
+}
+/* Footer end */

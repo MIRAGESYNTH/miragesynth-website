@@ -1,0 +1,58 @@
+{
+    "posts": {
+        "000": {
+            "identifier": "presentation",
+            "postnumber": "0",
+            "title": "MIRAGESYNTH",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Wanna learn more about us? Read this short presentation",
+            "content": "./posts/0.html",
+            "tags": ["company", "presentation"]
+        },
+        "001": {
+            "identifier": "roomba-1",
+            "postnumber": "1",
+            "title": "Roomba in the making",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Welcome to my page, hope you enjoy my work",
+            "content": "./posts/1.html",
+            "tags": ["games", "pc", "roomba"]
+        },
+        "002": {
+            "identifier": "roomba-1",
+            "postnumber": "1",
+            "title": "Roomba in the making",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Welcome to my page, hope you enjoy my work",
+            "content": "./posts/1.html",
+            "tags": ["games", "pc", "roomba"]
+        },
+        "003": {
+            "identifier": "roomba-1",
+            "postnumber": "1",
+            "title": "Roomba in the making",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Welcome to my page, hope you enjoy my work",
+            "content": "./posts/1.html",
+            "tags": ["games", "pc", "roomba"]
+        },
+        "004": {
+            "identifier": "roomba-1",
+            "postnumber": "1",
+            "title": "Roomba in the making",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Welcome to my page, hope you enjoy my work",
+            "content": "./posts/1.html",
+            "tags": ["games", "pc", "roomba"]
+        },
+        "005": {
+            "identifier": "roomba-1",
+            "postnumber": "1",
+            "title": "Roomba in the making",
+            "cover": "./assets/mv-1.jpg",
+            "preview": "Welcome to my page, hope you enjoy my work",
+            "content": "./posts/1.html",
+            "tags": ["games", "pc", "roomba"]
+        }
+    }
+}
