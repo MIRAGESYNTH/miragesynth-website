@@ -14,30 +14,89 @@
   </head>
   <body>
     <header>
+      <!-- Navigation Bar -->
       <nav>
-        <a href="#" class="logo">Home</a>
-        <ul>
-          <li><a href="#">Games</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#"><img src="assets/mail-logo-mini.png" class="soft-icon"/></a></li>
-          <li><a href="#"><img src="assets/instagram-logo-mini.png" class="soft-icon"/></a></li>
-          <li><a href="#"><img src="assets/twitter-logo-mini.png" class="soft-icon"/></a></li>
-         </ul>
+        <img src="./assets/nav-bar-background.png" class="nav-background"/>
+        <!-- Logo -->
+        <img src="./assets/nav-logo.png" class="nav-logo" onclick="home()"/>
+        <!-- Links -->
+        <div class="nav-links">
+          <!-- Pages -->
+          <img src="./assets/nav-links.png" class="nav-link"/>
+          <img src="./assets/nav-links.png" class="nav-link"/>
+          <img src="./assets/nav-links.png" class="nav-link"/>
+          <img src="./assets/nav-links.png" class="nav-link"/>
+          <!-- Socials -->
+          <img src="./assets/nav-social-mail-logo.png" class="nav-icon"/>
+          <img src="./assets/nav-social-instagram-logo.png" class="nav-icon"/>
+          <img src="./assets/nav-social-twitter-logo.png" class="nav-icon"/>
+        </div>
       </nav>
     </header>
+
     <main>
+
+      <!-- Main View -->
       <div class="main-view">
-        <div class="panel"><img src="./assets/main-view.jpg"></div>
-        <div class="prev"><img src="./assets/mv-left-arrow.png" class="prev-button"></div>
-        <div class="next"><img src="./assets/mv-right-arrow.png" class="next-button"></div>
+        <img src="./assets/main-view.png" class="main-view-background">
+        <img src="./assets/mv-left-arrow.png" class="prev-button">
+        <img src="./assets/mv-right-arrow.png" class="next-button">
       </div>
-      <div class="secondary-view">
-        <div class="panel"><img src="./assets/main-view.jpg"></div>
-        <div class="blog-preview-container">
+
+
+      <div class="separator">
+        <img src="./assets/page-separator.png" class="separator-background"/>
+      </div>
+      <!-- Main View End -->
+
+      <!-- News -->
+      <div class="news">
+        <img src="./assets/news-bg.png" class="news-bg">
+        
+        <!-- Blog Start -->
+        <div class="bpc">
+          <img src="./assets/bpc-bg.png" class="bpc-bg">
+          
+          <div class="bpc-title">
+            <img src="./assets/bpc-title-bg.png" class="bpc-title-bg">
+          </div>
+
+          <div class="bpc-articles">
+            <img src="./assets/bpc-articles-bg.png" class="bpc-articles-bg">
+
+            <div class="bpp base">
+              <img src="./assets/bpp-bg.png" class="bpp-bg">
+
+              <div class="bpp-cover">
+                <img src="./assets/bpp-cover-default.png" class="bpp-cover-bg">
+              </div>
+              <div class="bpp-category">
+                <img src="./assets/bpp-category-default.png" class="bpp-category-bg">
+              </div>
+              <div class="bpp-date">
+                <img src="./assets/bpp-date.png" class="bpp-date-bg">
+                <p class="bpp-date-text">01-01-00</p>
+              </div>
+              <div class="bpp-title">
+                <img src="./assets/bpp-title.png" class="bpp-title-bg">
+                <p class="bpp-title-text">Blog post information.</p>
+              </div>
+              <div class="bpp-button">
+                <img src="./assets/bpp-button.png" class="bpp-button-bg">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="bpc-nav">
+            <img src="./assets/bpc-nav-bg.png" class="bpc-nav-bg">
+          </div>
         </div>
+        <!-- Blog End -->
+
+        <!-- Twitter Start -->
         <div class="twitter-container">
+          <img src="./assets/twitter-container-background-image.png" class="twitter-container-background">
           <a class="twitter-timeline" 
             data-theme="dark" 
             href="https://twitter.com/miragesynth?ref_src=twsrc%5Etfw"
@@ -46,28 +105,59 @@
           </a> 
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
         </div>
-      </div>
-       <div class="second">
-              <a href="/mail">Mail</a>
-      <a href="/subscribe">Newsletter</a>
-        <br><br><br><br><br><br>
+        <!-- Twitter End -->
 
       </div>
-            <div class="second">
-              <a href="/mail">Mail</a>
-      <a href="/subscribe">Newsletter</a>
-        <br><br><br><br><br><br>
+      
+      <div class="separator">
+        <img src="./assets/page-separator.png" class="separator-background"/>
+      </div>
+      <!-- News End -->
+
+      <!-- About -->
+      <div class="about">
+        <img src="./assets/ab-bg.png" class="ab-bg">
+        <div class="intro">
+          <img src="./assets/in-bg.png" class="in-bg">
+        </div>
+        <div class="members">
+          <img src="./assets/mem-bg.png" class="mem-bg">
+        </div>
+      </div>
+
+      <div class="separator">
+        <img src="./assets/page-separator.png" class="separator-background"/>
+      </div> 
+      <!-- About End --> 
+
+      <!-- Social -->
+      <div class="social">
+        <img src="./assets/sc-bg.png" class="sc-bg">
+
+        <div class="sc-twitter">
+          <img src="./assets/sc-twitter-bg.png" class="sc-twitter-bg">
+        </div>
+        <div class="sc-youtube">
+          <img src="./assets/sc-youtube-bg.png" class="sc-youtube-bg">
+        </div>
+        <div class="sc-instagram">
+          <img src="./assets/sc-instagram-bg.png" class="sc-instagram-bg">
+        </div>
 
       </div>
+
+      <div class="separator">
+        <img src="./assets/page-separator.png" class="separator-background"/>
+      </div> 
+      <!-- Social End --> 
 
     </main>
-    <footer>
-          <div>
-              <a href="/mail">Mail</a>
-      <a href="/subscribe">Newsletter</a>
-        <br><br><br><br><br><br>
 
-      </div>
+    <footer>
+      <img src="./assets/footer-bar-background.png" class="footer-bar-background"/>
+      <p class="footer-text">
+        Hello
+      </p>
     </footer>
 
   </body>

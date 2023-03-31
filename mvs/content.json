@@ -2,23 +2,33 @@
     "games": {
         "000": {
             "identifier": "default",
-            "default": true,
-            "background": "./assets/main-view.jpg",
+            "default": false,
+            "background": "./assets/main-view.png",
             "title": "MIRAGESYNTH",
             "description": "Welcome to my page, hope you enjoy my work",
             "video": "https://www.youtube.com/embed/none",
-            "options": { "page": true, "store": true, "android": true },
-            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "android": "https://play.google.com"}
+            "options": { "page": true, "store": true, "mobile": true },
+            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "mobile": "https://play.google.com"}
         },
         "001": {
-            "identifier": "cleanbot",
+            "identifier": "first",
             "default": false,
-            "background": "./assets/main-view.jpg",
-            "title": "cleanbot",
-            "description": "Enjoy a heart warming tale of a little cleanbot exploring the world",
+            "background": "./assets/main-view-mustard.png",
+            "title": "first",
+            "description": "Enjoy",
             "video": "https://www.youtube.com/embed/none",
-            "options": { "page": true, "store": true, "android": false },
-            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "android": "#"}
+            "options": { "page": true, "store": true, "mobile": false },
+            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "mobile": "#"}
+        },
+        "002": {
+            "identifier": "jp",
+            "default": true,
+            "background": "./assets/main-view-jp.png",
+            "title": "Jean Pierre",
+            "description": "Friendly dog",
+            "video": "https://www.youtube.com/embed/none",
+            "options": { "page": true, "store": false, "mobile": true },
+            "references": { "page": "https://www.miragesynth.com", "store": "https://itch.io", "mobile": "#"}
         }
     }
 }
