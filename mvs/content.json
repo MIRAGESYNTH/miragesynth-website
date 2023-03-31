@@ -3,7 +3,7 @@
         "000": {
             "identifier": "default",
             "default": false,
-            "background": "./assets/main-view.png",
+            "background": "../assets/main-view.png",
             "title": "MIRAGESYNTH",
             "description": "Welcome to my page, hope you enjoy my work",
             "video": "https://www.youtube.com/embed/none",
@@ -13,7 +13,7 @@
         "001": {
             "identifier": "first",
             "default": false,
-            "background": "./assets/main-view-mustard.png",
+            "background": "../assets/main-view-mustard.png",
             "title": "first",
             "description": "Enjoy",
             "video": "https://www.youtube.com/embed/none",
@@ -23,7 +23,7 @@
         "002": {
             "identifier": "jp",
             "default": true,
-            "background": "./assets/main-view-jp.png",
+            "background": "../assets/main-view-jp.png",
             "title": "Jean Pierre",
             "description": "Friendly dog",
             "video": "https://www.youtube.com/embed/none",

@@ -4,27 +4,27 @@
             "identifier": "presentation",
             "postnumber": "0",
             "title": "MIRAGESYNTH",
-            "cover": "./assets/mv-1.jpg",
+            "cover": "../assets/mv-1.jpg",
             "preview": "Want to know more about us? Read this short presentation",
-            "content": "./posts/0.html",
+            "content": "../posts/0.html",
             "tags": ["company", "presentation"]
         },
         "001": {
             "identifier": "first",
             "postnumber": "1",
             "title": "first in the making",
-            "cover": "./assets/mv-1.jpg",
+            "cover": "../assets/mv-1.jpg",
             "preview": "Welcome to my page, hope you enjoy my work",
-            "content": "./posts/1.html",
+            "content": "../posts/1.html",
             "tags": ["games", "pc", "roomba"]
         },
         "002": {
             "identifier": "second",
             "postnumber": "1",
             "title": "second in the making",
-            "cover": "./assets/mv-1.jpg",
+            "cover": "../assets/mv-1.jpg",
             "preview": "Welcome to my page, hope you enjoy my work",
-            "content": "./posts/1.html",
+            "content": "../posts/1.html",
             "tags": ["games", "pc", "roomba"]
         }
     }
